@@ -1,5 +1,10 @@
 # Change Log
 
+## [Unreleased]
+
+**Added**
+- Clients: Added `SkipNonVerifiableCallbackUriConfirmationPrompt` (`bool?`) property to `Client`, `CreateClientRequestContent`, `UpdateClientRequestContent`, `GetClientResponseContent`, `CreateClientResponseContent`, `UpdateClientResponseContent`, and `RotateClientSecretResponseContent` to control whether a confirmation prompt is shown during login flows when the redirect URI uses non-verifiable callback URIs (e.g. custom URI schemas such as `myapp://` or `localhost`).
+
 ## [mgmt-8.3.0](https://github.com/auth0/auth0.net/tree/mgmt-8.3.0) (2026-05-13)
 [Full Changelog](https://github.com/auth0/auth0.net/compare/mgmt-8.2.0...mgmt-8.3.0)
 
